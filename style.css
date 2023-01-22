@@ -1,0 +1,60 @@
+ @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+ }
+ body{
+    background: #003850;
+    font-size: 12px;
+ }
+ .wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 10px;
+    margin-top: 10%;
+ }
+ .alert_wrapper .alert_item{
+    max-width: 400px;
+    width: 100%;
+    background: white;
+    margin-bottom: 25px;
+    padding: 15px 20px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 0 2px rgba(0,0,0,0.15);
+ }
+ .alert_wrapper .alert_item .text{
+    padding: 0 5px 0 15px;
+    width: calc(100% -64px);
+ }
+ .alert_wrapper .alert_item h3{
+    font-size: 14px;
+    margin-bottom: 5px;
+    color:#003850 ;
+ }
+ .alert_wrapper .alert_item p{
+    color: rgba(48, 5, 48, 0.467);
+ }
+ .alert_wrapper .alert_item .icon,
+ .alert_wrapper .alert_item .close{
+    display: flex;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+
+ }
+ .alert_wrapper.alert_item.success_item{
+    background: greenyellow;
+ }
+ .alert_wrapper .alert_item .success_item.icon{
+    background: greenyellow;
+ }
